@@ -1,0 +1,86 @@
+/* css for florianletsch.de */
+
+/* reset */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 5px; /* iphone */
+}
+/* base styling */
+html {
+  font-size: 14px;
+}
+body {
+  background: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  color: #444444;
+}
+.fl-shy {
+  /*color: #888;*/
+}
+
+
+/* layout */
+.fl-height-1-1 {
+    height: 100%;
+}
+.fl-vertical-align {
+    font-size: 0.001px;
+}
+.fl-vertical-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.fl-text-center {
+    text-align: center;
+}
+.fl-text-left {
+    text-align: left;
+}
+.fl-vertical-align-middle {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+.fl-margin-bottom {
+    margin-bottom: 15px;
+}
+
+/* links and navigation */
+a {
+  color: #4e7ab5;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #284f85;
+  text-decoration: underline;
+}
+.fl-nav {
+  padding: 0;
+  list-style: none;
+  font-size: 0.001px;
+}
+.fl-nav > li {
+  position: relative;
+  font-size: 1rem;
+  vertical-align: top;
+}
+.fl-nav > li,
+.fl-nav > li > a,
+.fl-nav > li > span {
+  display: inline-block;
+}
+.fl-nav > li:nth-child(n+2) {
+  margin-left: 10px;
+}
+
